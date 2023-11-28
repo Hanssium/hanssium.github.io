@@ -1,5 +1,53 @@
 /* CSS Halaman Github */
 
 body {
-	background: #e0e0e0;
+	background: #f0f0f0;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+}
+
+@font-face {
+	font-family: "Noto Sans Javanese";
+	src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@700&display=swap');
+	unicode-range: "U+A980-A9DF";
+}
+
+@font-face {
+	font-family: "Noto Sans Georgian";
+	src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&display=swap');
+	unicode-range: "U+10A0-10FF";
+}
+
+@font-face {
+	font-family: "Noto Serif Georgian";
+	src: url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&display=swap');
+	unicode-range: "U+10A0-10FF";
+}
+
+@font-face {
+	font-family: "PT Serif";
+	src: url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+}
+
+h1 {
+	font-family: "Noto Sans Javanese", "Noto Sans Georgian", "Inter", sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+p {
+	font-family: "PT Serif", serif;
+	padding-left: 4px;
+	padding-right: 2px;
+}
+
+#konten {
+	background: lightgoldenrodyellow;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
 }
